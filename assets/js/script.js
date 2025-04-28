@@ -15,12 +15,12 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 
 
 $('#btn').click(function(){
-    alert("correo enviado correctamente")
+    alert("El correo fue enviado correctamente...")
 
 })
 
-$('#btn2').dblclick(function(){
-    alert("boton clickeado 2 veces!!!!")
+$('#btn2').click(function(){
+    alert("añadido a favoritos")
 
 })
 
@@ -29,14 +29,18 @@ $('.hover').hover(
     function() {$(this).css('background-color', '')},
 )
 
-
-
 $('h2').dblclick(function(){
     $(this).css('color', 'red')
 })
 
+$('#btntoggle1').click(function(){
+    $('#contenido1').toggle()
+})
+$('#btntoggle2').click(function(){
+    $('#contenido2').toggle()
+})
 
-$('#btntoggle').click(function(){
-    $('#contenido').toggle()
+$('#btntoggle3').click(function(){
+    $('#contenido3').toggle()
 })
 

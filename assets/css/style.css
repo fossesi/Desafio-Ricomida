@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*reset de css a html*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.navbar {
+  background-color: #373A3C;
+}
+
+.h2 {
+  color: black;
+}
+
+.navbar-brand {
+  font-family: Lobster;
+  font-weight: 400;
+  font-size: 37pt;
+  color: #FFFFFF;
+}
+
+
+.nav-link {
+  font-family: Cabin;
+  font-weight: 400;
+  font-size: 16pt;
+  color: #FFFFFF;
+}
+
+img {
+  width: 384pt;
+}
+
+section {
+  padding-top: 70pt;
+}
+
+div.col-5 {
+  margin-right:  50pt;
+}
+
+h1 {
+  font-family: Cabin;
+  font-weight: 700;
+  font-size: 40pt;
+  color: #373A3C;
+  padding-top: 20pt;
+}
+
+.carrusel {
+  width: 250pt;
+}
+
+h2 {
+  font-family: Cabin;
+  font-weight: 700;
+  font-size: 20pt;
+  color: #373A3C;
+  padding-top: 20pt;
+}
+
+button {
+  font-family: Cabin;
+  font-weight: 400;
+  font-size: 16pt;
+  color: #373A3C;
+  background-color: #FFFFFF;
+  border-color: #DDDDDD;
+  border-width: 1pt;
+  width: 141pt;
+  margin-right: 10pt;
+}
